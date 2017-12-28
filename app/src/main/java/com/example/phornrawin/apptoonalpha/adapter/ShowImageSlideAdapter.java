@@ -16,9 +16,9 @@ import com.example.phornrawin.apptoonalpha.R;
  */
 
 public class ShowImageSlideAdapter extends PagerAdapter {
-    Context context;
-    int images[];
-    LayoutInflater layoutInflater;
+    private Context context;
+    private int images[];
+    private LayoutInflater layoutInflater;
 
     public ShowImageSlideAdapter(Context context, int[] images) {
         this.context = context;
@@ -48,7 +48,7 @@ public class ShowImageSlideAdapter extends PagerAdapter {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                // TODO OPEN TOON
             }
         });
         return itemView;

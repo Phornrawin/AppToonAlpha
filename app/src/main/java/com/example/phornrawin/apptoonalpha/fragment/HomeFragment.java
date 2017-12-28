@@ -26,8 +26,8 @@ public class HomeFragment extends Fragment {
     private ShowImageSlideAdapter slideAdapter;
 
     public HomeFragment() {
-        images = new int[] {1, 2, 3, 4};
-        myToons = new String[] {"A", "B", "C", "D"};
+        images = new int[] {R.drawable.id_flower, R.drawable.lookism, R.drawable.noblesses};
+        myToons = new String[] {"ID Flower", "Lookism", "Noblesses"};
     }
 
     public static HomeFragment newInstance() {
