@@ -9,7 +9,8 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="142dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,9 +28,9 @@
         android:id="@+id/GV_homepage"
         android:layout_width="385dp"
         android:layout_height="110dp"
-        android:layout_marginTop="180dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="204dp"
         android:scrollbars="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
